@@ -1,0 +1,27 @@
+.nav {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+.nav > li {
+  background-color: #007499;
+  border: 1px solid #300;
+  display: block;
+  border-left: 0;
+  float: left;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  width: 98px;
+}
+
+.nav > li:hover {
+  background-color: #300;
+}
+
+.nav > li > a {
+  color: #FFF;
+  display: block;
+  text-decoration: none;
+}
